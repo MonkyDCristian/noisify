@@ -16,13 +16,13 @@ export const useControlCenterStore = create<
 >()(
   persist(
     (set) => ({
-      saturation: 1.4,
+      saturation: 0.0,
       setSaturation: (saturation) => set({ saturation }),
 
-      blur: 60,
+      blur: 0,
       setBlur: (blur) => set({ blur }),
 
-      noiseStrength: 0.15,
+      noiseStrength: 0.0,
       setNoiseStrength: (noiseStrength) => set({ noiseStrength }),
     }),
     {

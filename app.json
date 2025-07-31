@@ -15,7 +15,8 @@
     "ios": {
       "supportsTablet": true,
       "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSCameraUsageDescription": "$(PRODUCT_NAME) uses your camera to capture real-world scenes and magically create custom wallpapers based on your environment."
       },
       "bundleIdentifier": "app.mrevanzak.noisify",
       "appleTeamId": "5U7DSB32K6"
@@ -61,7 +62,15 @@
         "expo-build-properties",
         {
           "android": {
+            "gradleVersion": "8.13",
+            "kotlinVersion": "1.9.22",
+            "androidGradlePluginVersion": "8.4.1",
+            "compileSdkVersion": 34,
+            "targetSdkVersion": 34,
             "minSdkVersion": 26
+          },
+          "ios": {
+            "deploymentTarget": "13.4"
           }
         }
       ]
@@ -69,16 +78,16 @@
     "experiments": {
       "typedRoutes": true
     },
-    "extra": {
-      "eas": {
-        "projectId": "e38fc18c-87a3-4d30-bd21-4705a3df83f2"
-      }
-    },
     "runtimeVersion": {
       "policy": "appVersion"
     },
-    "updates": {
-      "url": "https://u.expo.dev/e38fc18c-87a3-4d30-bd21-4705a3df83f2"
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "5333bca4-b938-4327-a7da-331164bda8df"
+      }
     }
   }
 }

@@ -204,7 +204,7 @@ export default function Homescreen() {
                   onInitialized={() => setCameraReady()}
                   device={device}
                   zoom={zoom}
-                  frameProcessor={frameProcessor}
+                  //frameProcessor={frameProcessor}
                   isActive={!selectedImage}
                 />
 
