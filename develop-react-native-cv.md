@@ -34,7 +34,7 @@
 {
   "react-native-vision-camera": "^4.5.3",    // Camera functionality
   "@shopify/react-native-skia": "^1.4.2",    // 2D graphics engine
-  "react-native-reanimated": "~3.10.1",      // Animations & gestures
+  "react-native-reanimated": "~3.16.0",      // Animations & gestures
   "react-native-worklets-core": "^1.3.3",    // Worklet support
   "zustand": "^5.0.0-rc.2",                  // State management
   "@gorhom/bottom-sheet": "^5.1.4",          // Bottom sheet UI
